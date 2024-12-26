@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY NAME IS</title>
+    <link rel="stylesheet" href="/MNI1/static/style.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo">
+            <img src="/MNI1/static/logo.png" alt="Agency Logo">
+        </div>
+        <div class="menu">
+            <a href="#">Models</a>
+            <span class="separator">|</span>
+            <a href="#">Artists</a>
+            <span class="separator">|</span>
+            <a href="#">Fashion</a>
+            <span class="separator">|</span>
+            <a href="#">Beauty</a>
+        </div>
+        <div class="search-container">
+            <input type="text" placeholder="Search">
+            <button>
+                <svg width="800px" height="800px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M14.9536 14.9458L21 21M17 10C17 13.866 13.866 17 10 17C6.13401 17 3 13.866 3 10C3 6.13401 6.13401 3 10 3C13.866 3 17 6.13401 17 10Z" stroke="#2d2d2d" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <circle cx="10" cy="10" r="6" fill="#FFFFFF"></circle>
+                </svg>
+            </button>
+        </div>
+        <div class="search-menu hidden">
+            <p class="tip">Tip: You can search by name or role (photographer, model, etc.)</p>
+            <h2>MyNameIs ProSearch</h2>
+            <div class="prosearch-options">
+                <div class="prosearch-row">
+                    <button>Models</button>
+                    <button>Photographers</button>
+                </div>
+                <div class="prosearch-row">
+                    <button>Fashion Editors/Stylist</button>
+                    <button>Makeup Artists</button>
+                </div>
+            </div>
+            <h3>Agencies and companies</h3>
+            <ul>
+                <li>Modeling Agencies</li>
+                <li>Artist Agencies</li>
+                <li>Production & Creative Services</li>
+            </ul>
+        </div>        
+        <button class="contact-btn">Contact us</button>
+    </div>
+    <script src="/MNI1/static/script.js"></script>
+</body>
+<main>
+    <!-- фоткаперша -->
+    <div class="main-img">
+        <img src="/MNI1/static/main1.png" alt="Main Image">
+    </div>
+    <!-- бегущастрока -->
+    <div class="marquee-container">
+        <div class="marquee">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        </div>
+        <div class="marquee">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        </div>
+    </div>
+    <!-- текстперший -->
+    <div class="main-text">
+        <h1>My Name Is</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor </p>
+    </div>
+    <!-- слайдер -->
+<section class="slider-section">
+  <div class="slider-header">
+    <h2>Lorem ipsum</h2>
+    <a href="#" class="see-all">See all</a>
+  </div>
+  <hr>
+  <div class="slider-wrapper">
+    <div class="slider">
+      <!-- основні слайди -->
+      <div class="slider-item">
+        <img src="/MNI1/static/slider1.png" alt="Finland, May 2020">
+        <p class="country">Finland, May 2020</p>
+        <p class="description">Lorem ipsum</p>
+      </div>
+      <div class="slider-item">
+        <img src="/MNI1/static/slider2.png" alt="Paris, June 2019">
+        <p class="country">Paris, June 2019</p>
+        <p class="description">Lorem ipsum</p>
+      </div>
+      <div class="slider-item">
+        <img src="/MNI1/static/slider3.png" alt="Kyiv, August 2021">
+        <p class="country">Kyiv, August 2021</p>
+        <p class="description">Lorem ipsum</p>
+      </div>
+      <div class="slider-item">
+        <img src="/MNI1/static/slider1.png" alt="Berlin, April 2022">
+        <p class="country">Berlin, April 2022</p>
+        <p class="description">Lorem ipsum</p>
+      </div>
+      <div class="slider-item">
+        <img src="/MNI1/static/slider2.png" alt="Rome, March 2018">
+        <p class="country">Rome, March 2018</p>
+        <p class="description">Lorem ipsum</p>
+      </div>
+      <div class="slider-item">
+        <img src="/MNI1/static/slider3.png" alt="London, July 2023">
+        <p class="country">London, July 2023</p>
+        <p class="description">Lorem ipsum</p>
+      </div>
+      <!-- додаткові слайди для тесту -->
+      <div class="slider-item">
+        <img src="/MNI1/static/slider1.png" alt="Tokyo, December 2023">
+        <p class="country">Tokyo, December 2023</p>
+        <p class="description">Lorem ipsum</p>
+      </div>
+      <div class="slider-item">
+        <img src="/MNI1/static/slider2.png" alt="NYC, January 2024">
+        <p class="country">NYC, January 2024</p>
+        <p class="description">Lorem ipsum</p>
+      </div>
+    </div>
+    <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+    <button class="next" onclick="moveSlide(1)">&#10095;</button>
+    <hr>
+  </div>
+</section>
+<!-- блок гелереї -->
+<section class="gallery-section">
+    <div class="gallery-header">
+        <h2>Lorem ipsum</h2>
+        <a href="#" class="see-all">See all</a>
+    </div>
+    <hr>
+    <div class="gallery">
+        <div class="gallery-item">
+            <img src="/MNI1/static/gallery/gallery1.jfif" alt="Image 1">
+            <div class="overlay">
+                <a href="link1.html">View More</a>
+            </div>
+        </div>
+        <div class="gallery-item">
+            <img src="/MNI1/static/gallery/Jacquemus.jfif" alt="Image 2">
+            <div class="overlay">
+                <a href="link2.html">View More</a>
+            </div>
+        </div>
+        <div class="gallery-item">
+            <img src="/MNI1/static/gallery/Versace 2023 spring.jfif" alt="Image 3">
+            <div class="overlay">
+                <a href="link3.html">View More</a>
+            </div>
+        </div>
+        <div class="gallery-item">
+            <img src="/MNI1/static/gallery/adriana lima.jfif" alt="Image 4">
+            <div class="overlay">
+                <a href="link4.html">View More</a>
+            </div>
+        </div>
+        <div class="gallery-item">
+            <img src="/MNI1/static/gallery/Kendall Jenner Joins Stuart Weitzman Fall Winter 2019 SW Boot Camp.jfif" alt="Image 5">
+            <div class="overlay">
+                <a href="link5.html">View More</a>
+            </div>
+        </div>
+        <div class="gallery-item">
+            <img src="/MNI1/static/gallery/Без названия (5).jfif" alt="Image 6">
+            <div class="overlay">
+                <a href="link6.html">View More</a>
+            </div>
+        </div>
+        <div class="gallery-item">
+            <img src="/MNI1/static/gallery/Anya Taylor-Joy Covers British Vogue April 2022, Lensed by Craig McDean — Anne of Carversville.jfif" alt="Image 7">
+            <div class="overlay">
+                <a href="link7.html">View More</a>
+            </div>
+        </div>
+        <div class="gallery-item">
+            <img src="/MNI1/static/gallery/Madelyn Cline Convinced the ‘Outer Banks’ Writers to Make Sarah Choose John B.jfif" alt="Image 8">
+            <div class="overlay">
+                <a href="link8.html">View More</a>
+            </div>
+        </div>
+        <div class="gallery-item">
+            <img src="/MNI1/static/gallery/Без названия (6).jfif" alt="Image 9">
+            <div class="overlay">
+                <a href="link9.html">View More</a>
+            </div>
+        </div>
+        <div class="gallery-item">
+            <img src="/MNI1/static/gallery/Chanel.jfif" alt="Image 10">
+            <div class="overlay">
+                <a href="link10.html">View More</a>
+            </div>
+        </div>
+        <div class="gallery-item">
+            <img src="/MNI1/static/gallery/Tanya Dziahileva at Emanuel Ungaro (2007)_.jfif" alt="Image 11">
+            <div class="overlay">
+                <a href="link11.html">View More</a>
+            </div>
+        </div>
+        <div class="gallery-item">
+            <img src="/MNI1/static/gallery/Без названия (7).jfif" alt="Image 12">
+            <div class="overlay">
+                <a href="link12.html">View More</a>
+            </div>
+        </div>
+        <div class="gallery-item">
+            <img src="/MNI1/static/gallery/Irina Shayk flaunts her model figure for Versace in Milan.jfif" alt="Image 13">
+            <div class="overlay">
+                <a href="link13.html">View More</a>
+            </div>
+        </div>
+        <div class="gallery-item">
+            <img src="/MNI1/static/gallery/megan fox.jfif" alt="Image 14">
+            <div class="overlay">
+                <a href="link14.html">View More</a>
+            </div>
+        </div>
+        <div class="gallery-item">
+            <img src="/MNI1/static/gallery/Ukraine Crown.jfif" alt="Image 15">
+            <div class="overlay">
+                <a href="link15.html">View More</a>
+            </div>
+        </div>
+        <div class="gallery-item">
+            <img src="/MNI1/static/gallery/Kendall Jenner model.jfif" alt="Image 16">
+            <div class="overlay">
+                <a href="link16.html">View More</a>
+            </div>
+        </div>
+        <div class="gallery-item">
+            <img src="/MNI1/static/gallery/Jacquemus.jfif" alt="Image 17">
+            <div class="overlay">
+                <a href="link17.html">View More</a>
+            </div>
+        </div>
+        <div class="gallery-item">
+            <img src="/MNI1/static/gallery/Без названия (8).jfif" alt="Image 18">
+            <div class="overlay">
+                <a href="link18.html">View More</a>
+            </div>
+        </div>
+    </div>
+    <hr>
+</section>
+      
+      
+         
+</main>
+<footer>
+    <div class="footer-top">
+      <div class="social-icons">
+        <a href="https://facebook.com" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0,0,256,256">
+            <g fill="#fffcfc" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(5.12,5.12)"><path d="M25,3c-12.15,0 -22,9.85 -22,22c0,11.03 8.125,20.137 18.712,21.728v-15.897h-5.443v-5.783h5.443v-3.848c0,-6.371 3.104,-9.168 8.399,-9.168c2.536,0 3.877,0.188 4.512,0.274v5.048h-3.612c-2.248,0 -3.033,2.131 -3.033,4.533v3.161h6.588l-0.894,5.783h-5.694v15.944c10.738,-1.457 19.022,-10.638 19.022,-21.775c0,-12.15 -9.85,-22 -22,-22z"></path></g></g>
+          </svg>
+        </a>
+        <a href="https://instagram.com" target="_blank">
+            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0,0,256,256">
+                <g fill="#fffcfc" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(5.12,5.12)"><path d="M16,3c-7.16752,0 -13,5.83248 -13,13v18c0,7.16752 5.83248,13 13,13h18c7.16752,0 13,-5.83248 13,-13v-18c0,-7.16752 -5.83248,-13 -13,-13zM16,5h18c6.08648,0 11,4.91352 11,11v18c0,6.08648 -4.91352,11 -11,11h-18c-6.08648,0 -11,-4.91352 -11,-11v-18c0,-6.08648 4.91352,-11 11,-11zM37,11c-1.10457,0 -2,0.89543 -2,2c0,1.10457 0.89543,2 2,2c1.10457,0 2,-0.89543 2,-2c0,-1.10457 -0.89543,-2 -2,-2zM25,14c-6.06329,0 -11,4.93671 -11,11c0,6.06329 4.93671,11 11,11c6.06329,0 11,-4.93671 11,-11c0,-6.06329 -4.93671,-11 -11,-11zM25,16c4.98241,0 9,4.01759 9,9c0,4.98241 -4.01759,9 -9,9c-4.98241,0 -9,-4.01759 -9,-9c0,-4.98241 4.01759,-9 9,-9z"></path></g></g>
+            </svg>
+        </a>
+        <a href="https://t.me" target="_blank">
+            <svg fill="#ffffff" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" stroke="#ffffff"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M29.919 6.163l-4.225 19.925c-0.319 1.406-1.15 1.756-2.331 1.094l-6.438-4.744-3.106 2.988c-0.344 0.344-0.631 0.631-1.294 0.631l0.463-6.556 11.931-10.781c0.519-0.462-0.113-0.719-0.806-0.256l-14.75 9.288-6.35-1.988c-1.381-0.431-1.406-1.381 0.288-2.044l24.837-9.569c1.15-0.431 2.156 0.256 1.781 2.013z"></path> </g></svg>
+        </a>
+        <a href="https://tiktok.com" target="_blank">
+            <svg fill="#ffffff" width="131px" height="131px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" stroke="#ffffff"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><path d="M19.589 6.686a4.793 4.793 0 0 1-3.77-4.245V2h-3.445v13.672a2.896 2.896 0 0 1-5.201 1.743l-.002-.001.002.001a2.895 2.895 0 0 1 3.183-4.51v-3.5a6.329 6.329 0 0 0-5.394 10.692 6.33 6.33 0 0 0 10.857-4.424V8.687a8.182 8.182 0 0 0 4.773 1.526V6.79a4.831 4.831 0 0 1-1.003-.104z"></path></g></svg>
+        </a>
+        <a href="https://youtube.com" target="_blank">
+            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0,0,256,256">
+                <g fill="#fffcfc" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(10.66667,10.66667)"><path d="M21.582,6.186c-0.23,-0.86 -0.908,-1.538 -1.768,-1.768c-1.56,-0.418 -7.814,-0.418 -7.814,-0.418c0,0 -6.254,0 -7.814,0.418c-0.86,0.23 -1.538,0.908 -1.768,1.768c-0.418,1.56 -0.418,5.814 -0.418,5.814c0,0 0,4.254 0.418,5.814c0.23,0.86 0.908,1.538 1.768,1.768c1.56,0.418 7.814,0.418 7.814,0.418c0,0 6.254,0 7.814,-0.418c0.861,-0.23 1.538,-0.908 1.768,-1.768c0.418,-1.56 0.418,-5.814 0.418,-5.814c0,0 0,-4.254 -0.418,-5.814zM10,14.598v-5.196c0,-0.385 0.417,-0.625 0.75,-0.433l4.5,2.598c0.333,0.192 0.333,0.674 0,0.866l-4.5,2.598c-0.333,0.193 -0.75,-0.048 -0.75,-0.433z"></path></g></g>
+            </svg>
+        </a>
+      </div>
+      <div class="search-container2"> 
+        <input type="text" placeholder="Search">
+        <button>
+          <svg width="20px" height="20px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M14.9536 14.9458L21 21M17 10C17 13.866 13.866 17 10 17C6.13401 17 3 13.866 3 10C3 6.13401 6.13401 3 10 3C13.866 3 17 6.13401 17 10Z" stroke="#2d2d2d" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            <circle cx="10" cy="10" r="6" fill="#FFFFFF"></circle>
+          </svg>
+        </button>
+      </div>
+      <nav>
+        <a href="#">Models</a>
+        <a href="#">Artists</a>
+        <a href="#">Fashion</a>
+        <a href="#">Beauty</a>
+      </nav>
+      <div class="footer-text">
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+        <div class="logo">
+            <img src="/MNI1/static/logo2.png" alt="Agency Logo">
+        </div>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    <button class="contact-button">Contact us</button>
+  </div>
+</footer>
+<script src="/MNI1/static/script.js"></script>
+</html>
